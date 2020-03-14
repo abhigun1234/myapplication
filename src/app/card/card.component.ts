@@ -12,8 +12,8 @@ export class CardComponent implements OnInit {
 
   ngOnInit() {
   }
-clickMe()
-{
-  //alert('hello')
-}
+  clickMe(name:string)
+  {
+    alert('hello'+""+name)
+  }
 }

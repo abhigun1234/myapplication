@@ -17,7 +17,9 @@
     <button mat-button>SHARE</button>
   </mat-card-actions>
 </mat-card>-->
+<label>Enter Data</label>
+<input type="text"  #name >
 <div  *ngIf="flag">
 {{data}}
 </div>
-<button (click)="clickMe()">Click me!</button>
+<button (click)="clickMe(name.value)">Click me!</button>
